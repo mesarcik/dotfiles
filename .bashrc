@@ -119,7 +119,11 @@ fi
 ##################################################################################
 ################################ MISHAS CONFIG ###################################
 ##################################################################################
+#################################  Cuda install for debian 10 ###################
+# https://developer.nvidia.com/cuda-11.2.0-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Debian&target_version=10&target_type=runfilelocal
 ##################################################################################
+##################################################################################
+
 export PATH=$PATH:/usr/local/cuda-10.1/bin
 export CUDADIR=/usr/local/cuda-10.1
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.1/lib64
