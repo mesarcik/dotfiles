@@ -12,3 +12,4 @@ alias ls='LC_COLLATE=C ls -h --group-directories-first --color=auto'
 # vim
 set editing-mode vi
 set keymap vi
+set -o vi
