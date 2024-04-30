@@ -35,6 +35,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'itchyny/lightline.vim'
 Plugin 'git://git.wincent.com/command-t.git'
+Plugin 'psf/black'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
